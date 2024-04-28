@@ -4,7 +4,7 @@ var WildRydes = window.WildRydes || {};
 WildRydes.map = WildRydes.map || {};
 let map;
 
-function lookOutside() {
+function lookUp() {
     window.open("https://stellarium-web.org/", "popupWindow","width=600,height=400,scrollbars=yes");
 }
 
