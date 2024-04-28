@@ -5,7 +5,7 @@ WildRydes.map = WildRydes.map || {};
 let map;
 
 function lookUp() {
-    window.open("https://stellarium-web.org/", "popupWindow","width=600,height=400,scrollbars=yes");
+    window.open("https://stellarium-web.org/", "popupWindow","width=1000,height=800,scrollbars=yes");
 }
 
 (function rideScopeWrapper($) {
