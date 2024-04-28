@@ -4,6 +4,10 @@ var WildRydes = window.WildRydes || {};
 WildRydes.map = WildRydes.map || {};
 let map;
 
+function lookOutside() {
+    window.open("https://stellarium-web.org/", "popupWindow","width=600,height=400,scrollbars=yes");
+}
+
 (function rideScopeWrapper($) {
     var authToken;
     WildRydes.authToken.then(function setAuthToken(token) {
