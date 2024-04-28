@@ -163,7 +163,7 @@ let map;
             origin.longitude = WildRydes.map.extent.maxLng;
         }
 
-        WildRydes.map.animate(origin, dest, callback);
+        WildRydes.map.animate(origin, dest, callback,10000000);
     }
 
 
